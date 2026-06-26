@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'roboto',sans-serif;
+    outline: none;
 }
 
 body{
@@ -14,18 +15,33 @@ body{
     width: 300px;
     display: block;
     margin: 20px auto;
-    
+
 }
 
 main{
 
     position:relative;
     width: 375px;
-    height: 375px;
     border-radius: 20px;
     background: #F4F4F4;
     margin:0 auto;
     padding: 44px 24px 23px;
+    margin-bottom: 30px;
 
+}
+
+label{
+    color:#777777;
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 14px;
+}
+
+select{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 24px;
 }
 
